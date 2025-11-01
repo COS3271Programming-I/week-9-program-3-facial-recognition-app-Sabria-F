@@ -117,5 +117,9 @@ public class FacialReconitionApp {
         else if(sumdiff[4] == lowest){
             System.out.println("That was a picture of Ronald Reagan.");
         }
+
+        //Close both scanners.
+        userinput.close();
+        datainput.close();
     }
 }
